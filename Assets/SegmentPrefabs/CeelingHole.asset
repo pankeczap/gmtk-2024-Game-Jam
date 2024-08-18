@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8375377428d9f6c429e0fe6d33f936c3, type: 3}
+  m_Name: CeelingHole
+  m_EditorClassIdentifier: 
+  Name: CeelingHole
+  Prefab: {fileID: 5621928718898587974, guid: 6d920dcbbbb06e64aa5903492b558fec, type: 3}
+  Top:
+    ValidSegments:
+    - {fileID: 11400000, guid: f79d9d7789b786747a93d17fed4af4d2, type: 2}
+    - {fileID: 11400000, guid: 8ca5f1cef54a3f04392e9d190e374218, type: 2}
+    - {fileID: 11400000, guid: 7b429040a27cc2a479a31138734418b1, type: 2}
+  Bottom:
+    ValidSegments:
+    - {fileID: 11400000, guid: 6066067ddbbbb964097ec8010bfa78bf, type: 2}
+    - {fileID: 11400000, guid: 8ca5f1cef54a3f04392e9d190e374218, type: 2}
+  Left:
+    ValidSegments:
+    - {fileID: 11400000, guid: 6066067ddbbbb964097ec8010bfa78bf, type: 2}
+    - {fileID: 11400000}
+    - {fileID: 11400000, guid: f79d9d7789b786747a93d17fed4af4d2, type: 2}
+    - {fileID: 11400000, guid: 545e67dc7f9be4b47bf1eb5452960a16, type: 2}
+    - {fileID: 11400000, guid: 201f63b8755fa1f4ca848da9e43a9d8d, type: 2}
+    - {fileID: 11400000, guid: 8ca5f1cef54a3f04392e9d190e374218, type: 2}
+    - {fileID: 11400000, guid: 7b429040a27cc2a479a31138734418b1, type: 2}
+  Right:
+    ValidSegments:
+    - {fileID: 11400000, guid: 6066067ddbbbb964097ec8010bfa78bf, type: 2}
+    - {fileID: 11400000}
+    - {fileID: 11400000, guid: f79d9d7789b786747a93d17fed4af4d2, type: 2}
+    - {fileID: 11400000, guid: 79643ed7ee5f30d4285526c4aac2fae5, type: 2}
+    - {fileID: 11400000, guid: 201f63b8755fa1f4ca848da9e43a9d8d, type: 2}
+    - {fileID: 11400000, guid: 8ca5f1cef54a3f04392e9d190e374218, type: 2}
+    - {fileID: 11400000, guid: 7b429040a27cc2a479a31138734418b1, type: 2}

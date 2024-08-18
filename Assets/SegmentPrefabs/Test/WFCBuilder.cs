@@ -91,7 +91,7 @@ public class WFCBuilder : MonoBehaviour
                 _grid[x, y] = potentialSegments[Random.Range(0, potentialSegments.Count)];
             }
 
-            GameObject newSegment = Instantiate(_grid[x, y].Prefab, new Vector3(x*2, y*2, 0f), Quaternion.identity);
+            GameObject newSegment = Instantiate(_grid[x, y].Prefab, new Vector3(x*9, y*6, 0f), Quaternion.identity);
 
 
 
